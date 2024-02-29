@@ -1,0 +1,17 @@
+%% Test using latex and driver option pdftex
+%% → warning
+\input regression-test.tex
+\documentclass{article}
+\START
+\usepackage[pdftex]{color}
+\usepackage[pdftex]{graphics}
+\usepackage[pdftex]{xcolor}
+\END
+\begin{document}
+\textcolor{red}{Test}
+
+\includegraphics{example-image}
+\end{document}
+\endinput
+%%
+%% End of file `test-latex-pdftex.lvt'.

@@ -1,0 +1,14 @@
+%% Test using plaintex
+%% → no warning
+\input regression-test.tex
+\START
+\input{color}
+\input{graphicx}
+\END
+\textcolor{red}{Test}
+
+\includegraphics{example-image}
+\bye
+\endinput
+%%
+%% End of file `test-plaintex-nodriver.lvt'.

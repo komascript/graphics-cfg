@@ -1,0 +1,17 @@
+%% Test using xelatex and driver option luatex
+%% → warning
+\input regression-test.tex
+\documentclass{article}
+\START
+\usepackage[luatex]{color}
+\usepackage[luatex]{graphics}
+\usepackage[luatex]{xcolor}
+\END
+\begin{document}
+\textcolor{red}{Test}
+
+\includegraphics{example-image}
+\end{document}
+\endinput
+%%
+%% End of file `test-xelatex-luatex.lvt'.

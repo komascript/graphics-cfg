@@ -9,7 +9,7 @@ module = "graphics-cfg"
 
 sourcefiles =
    {
-      "color.cfg","graphics.cfg"
+      "color.cfg","graphics.cfg",
    }
 
 typesetfiles =
@@ -18,5 +18,12 @@ typesetfiles =
 
 installfiles = sourcefiles
 
--- No automated tests for this bundle
-testfildir = ""
+-- We need checks for different engines and formats
+
+checkconfigs = {
+   "check-latex",
+   "check-lualatex",
+   "check-pdflatex",
+   "check-xelatex",
+   "check-plaintex",
+}

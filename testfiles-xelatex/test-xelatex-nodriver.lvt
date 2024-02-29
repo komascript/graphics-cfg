@@ -1,0 +1,17 @@
+%% Test using xelatex and no driver option 
+%% → no warning
+\input regression-test.tex
+\documentclass{article}
+\START
+\usepackage{color}
+\usepackage{graphics}
+\usepackage{xcolor}
+\END
+\begin{document}
+\textcolor{red}{Test}
+
+\includegraphics{example-image}
+\end{document}
+\endinput
+%%
+%% End of file `test-xelatex-nodriver.lvt'.

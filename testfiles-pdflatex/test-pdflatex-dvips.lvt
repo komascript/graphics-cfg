@@ -1,0 +1,17 @@
+%% Test using pdflatex and driver option dvips
+%% → warning
+\input regression-test.tex
+\documentclass{article}
+\START
+\usepackage[dvips]{color}
+\usepackage[dvips]{graphics}
+\usepackage[dvips]{xcolor}
+\END
+\begin{document}
+\textcolor{red}{Test}
+
+\includegraphics{example-image}
+\end{document}
+\endinput
+%%
+%% End of file `test-pdflatex-dvips.lvt'.

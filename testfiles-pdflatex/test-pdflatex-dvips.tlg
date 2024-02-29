@@ -1,0 +1,48 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(../color.sty
+Package: color ....-..-.. v... Standard LaTeX Color (DPC)
+(color.cfg
+File: color.cfg ....-..-.. v... sample color configuration
+)
+Package color Warning: Explicit driver option dvips ignored,
+(color)                because detected engine does not support it.
+(color)                We recomment to remove the explicit driver option.
+(color)                Still staying with diver pdftex.def.
+Package color Info: Driver file: pdftex.def on input line ....
+(../pdftex.def
+File: pdftex.def ....-..-.. v... Graphics/color driver for pdftex
+) (../mathcolor.ltx)) (../graphics.sty
+Package: graphics ....-..-.. v... Standard LaTeX Graphics (DPC,SPQR)
+(../trig.sty
+Package: trig ....-..-.. v... sin cos tan (DPC)
+) (graphics.cfg
+File: graphics.cfg ....-..-.. v... sample graphics configuration
+)
+Package graphics Warning: Explicit driver option dvips ignored,
+(graphics)                because detected engine does not support it.
+(graphics)                We recomment to remove the explicit driver option.
+(graphics)                Still staying with diver pdftex.def.
+Package graphics Info: Driver file: pdftex.def on input line ....
+) (../xcolor.sty
+Package: xcolor ....-..-.. v... LaTeX color extensions (UK)
+(color.cfg
+File: color.cfg ....-..-.. v... sample color configuration
+)
+Package xcolor Warning: Explicit driver option dvips ignored,
+(xcolor)                because detected engine does not support it.
+(xcolor)                We recomment to remove the explicit driver option.
+(xcolor)                Still staying with diver pdftex.def.
+Package xcolor Info: Driver file: pdftex.def on input line ....
+LaTeX Info: Redefining \color on input line ....
+(../mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line ....
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line ....
+Package xcolor Info: Model `RGB' extended on input line ....
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line ....
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line ....
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line ....
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line ....
+Package xcolor Info: Model `Gray' substituted by `gray' on input line ....
+Package xcolor Info: Model `wave' substituted by `hsb' on input line ....
+)

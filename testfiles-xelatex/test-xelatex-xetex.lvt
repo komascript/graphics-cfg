@@ -1,0 +1,17 @@
+%% Test using xelatex and driver option xetex
+%% → no warning
+\input regression-test.tex
+\documentclass{article}
+\START
+\usepackage[xetex]{color}
+\usepackage[xetex]{graphics}
+\usepackage[xetex]{xcolor}
+\END
+\begin{document}
+\textcolor{red}{Test}
+
+\includegraphics{example-image}
+\end{document}
+\endinput
+%%
+%% End of file `test-xelatex-xetex.lvt'.
